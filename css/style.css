@@ -11,6 +11,7 @@
     --color-darkpurple-: #602045;
     --color-primary-: #FFFF; 
     --color-borders-: #F9F9F9;
+    --color-footer-: #000000;
 }
 
 .debug{
@@ -44,29 +45,26 @@
     background-color: var(--color-primary-);
 }
 
-.oaic{
-    text-align: center;
-}
-
 nav{
     padding-left: 20px;
     padding-right: 20px;
 }
 
+a{
+    display: block;
+}
+
 h1{
-    font-size: 75px;
+    font-size: 71px;
 }
 
 h2{
-    padding-bottom: 50px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-.hero{
-    min-width: 100%;
+#hero{
     background-color: var(--color-lightblue-);
-    position: relative;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .hero-left{
@@ -75,6 +73,11 @@ h2{
 
 .hero-right{
     width: 65%;
+}
+
+#heroimg{
+    width: 100%;
+    display: block;
 }
 
 .space-between{
@@ -107,9 +110,20 @@ h2{
 }
 
 p{
-    padding-top: 20px;
     font-size: 15px;
+}
+
+.p10-top{
+    padding-top: 10px;
+}
+
+.p10-left{
     padding-left: 10px;
+}
+
+
+
+.text-indent{
     text-indent: -10px;
 }
 
@@ -187,7 +201,7 @@ div > #heroimg{
 }
 
 .m20-top{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h4{
@@ -203,15 +217,35 @@ h4{
 }
 
 .quadrato img{
-    width: 600px;
-    height: 600px;
-    object-fit: cover;
-    padding: 0;
-    display: block;
+    width: 100%;
 }
 
+.business{
+    width: calc(100% / 3);
+    padding: 20px 10px;
+}
 
 .business img{
-    width: 300px;
+    width: 100%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: var(--color-footer-);
+    color: var(--color-primary-);
+    width: 100%;
+    padding: 15px;
+}
+
+ul{
+    list-style: none;
+    font-size: 13px;
+}
+
+li{
+    padding: 5px 0;
 }
 
