@@ -135,6 +135,10 @@ p{
     padding-bottom: 10px;
 }
 
+.p40-bot{
+    padding-bottom: 40px;
+}
+
 .p10-left{
     padding-left: 10px;
 }
@@ -326,7 +330,7 @@ ul{
     padding-bottom: 30px;
 }
 
-.border-list li{
+footer li{
     padding: 10px 0;
 }
 
@@ -440,7 +444,7 @@ ul{
     padding-bottom: 20px;
 }
 
-#accordion label + input[type="radio"]:checked + .content{
+#accordion label + input[type="radio"]:hover + .content{
     max-height: 300px;
 }
 
