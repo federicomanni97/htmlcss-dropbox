@@ -110,7 +110,7 @@
                         <p  class="p10-top p10-left"><i class="fa-solid fa-check"></i> Cartella offline su dispositivi mobili</p>
                         <p  class="p10-top p10-left"><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</p>
                         <p  class="p10-top p10-left"><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</p>
-                        <p  class="p10-top p10-left"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</p>
+                        <p  class="p10-top p10-left p10-bot"><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</p>
                     </div>
                 </div>
                 <div class="debug d-flex main-block j-center container-small">
@@ -226,8 +226,8 @@
         </div>
     </section>
 
-    <section class="d-flex margin-top">
-        <div class="square-brands d-flex wrap">
+    <section class="d-flex margin-top" id="logos">
+        <div class="square-brands d-flex wrap container">
             <div class="square-box d-flex j-center square1">
                 <img src="img/designit.svg" alt="brand1">
             </div>
@@ -241,7 +241,7 @@
                 <img src="img/topps.svg" alt="brand4">
             </div>
         </div>
-        <div class="square-brands middlesquare d-flex column p10-top">
+        <div class="square-brands middlesquare d-flex container column p10-top">
               <img src="img/designit.svg" alt="middlesquare-image">
               <div class="middlesquare">
               <p class="p10-top">"I membri del nostro team lavorano costantemente in Paesi, dusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
@@ -250,8 +250,8 @@
               <p class="p10-top">Marten Thomsen, Global IT Lead</p>
               </div>
         </div>
-        <div class="square-brands d-flex wrap">
-            <div class="square-box d-flex j-center square5">
+        <div class="square-brands d-flex wrap container padding0">
+            <div class="square-box d-flex j-center square5 container">
                 <img src="img/world_bicycle_relief.svg" alt="brand5">
             </div>
             <div class="square-box d-flex j-center square6">
@@ -275,6 +275,39 @@
             </div>
         </div>
     </section>
+       
+    <!--accordion-->
+    <section class=" margin-top container-small">
+            <h2>Domande Frequenti</h2>
+        <ul class="m20-top" id="accordion">
+            <li>
+                <label for="first" class="d-flex align-center space-between border-top">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <span><i class="fa-solid fa-arrow-down" id="arrow2"></i></span></label>
+                <input type="radio" name="accordion" id="first">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum officia nisi tempore aut dolor debitis repudiandae nobis optio amet sequi explicabo nemo repellendus iste neque minima sed esse asperiores, id, ullam voluptate architecto. Libero blanditiis quis nesciunt ipsum, placeat iste aliquid itaque rem sunt laborum, consequatur minus recusandae minima!</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="second" class="d-flex align-center space-between">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <span><i class="fa-solid fa-arrow-down" id="arrow2"></i></span></label>
+                <input type="radio" name="accordion" id="second">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum officia nisi tempore aut dolor debitis repudiandae nobis optio amet sequi explicabo nemo repellendus iste neque minima sed esse asperiores, id, ullam voluptate architecto. Libero blanditiis quis nesciunt ipsum, placeat iste aliquid itaque rem sunt laborum, consequatur minus recusandae minima!</p>
+                </div>
+            </li>
+
+            <li>
+                <label for="third" class="d-flex align-center space-between">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <span><i class="fa-solid fa-arrow-down" id="arrow2"></i></span></label>
+                <input type="radio" name="accordion" id="third">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum officia nisi tempore aut dolor debitis repudiandae nobis optio amet sequi explicabo nemo repellendus iste neque minima sed esse asperiores, id, ullam voluptate architecto. Libero blanditiis quis nesciunt ipsum, placeat iste aliquid itaque rem sunt laborum, consequatur minus recusandae minima!</p>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+       
+
 
 
 
@@ -282,7 +315,7 @@
 
     </main>
 
-    <footer>
+    <footer class="margin-top">
      <section class="container p10-bot">   
       <div class="d-flex space-between"> 
         <div>
