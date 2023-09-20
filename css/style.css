@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --color-lightblue-: #B4D0E6;
     --color-buttons-: #0061FE;
@@ -22,6 +26,7 @@
     --color-brand6-: #B4D0E6;
     --color-brand7-: #0D2481;
     --color-brand8-: #FFD930;
+    --color-logohover-: #D1E9CD;
     --color-middlesquare-: #F5F5F5; 
 
 }
@@ -46,6 +51,11 @@
     display: flex;
 }
 
+.nav-bar img{
+    padding: 0px 5px;
+
+}
+
 .nav-bar{
     width: 100%;
     height: 50px;
@@ -56,6 +66,10 @@
     z-index: 1000;
     background-color: var(--color-primary-);
     box-shadow: 0px 10px 20px var(--color-month-);
+}
+
+nav:hover{
+    cursor: pointer;
 }
 
 nav{
@@ -129,6 +143,7 @@ p{
 
 a{
     color: var(--color-buttons-);
+    cursor: pointer;
 }
 
 .p10-top{
@@ -169,6 +184,11 @@ button{
     background-color: var(--color-buttons-);
     padding: 15px 8px;
     margin: 20px 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 10px 20px var(--color-month-);
 }
 
 .button2{
@@ -177,6 +197,7 @@ button{
     background-color: var(--color-primary-);
     color: black;
     padding: 15px 8px;
+    cursor: pointer;
 }
 
 .buttonbox button{
@@ -363,6 +384,43 @@ footer li{
     object-fit: contain;
     color: var(--color-primary-);
     filter: brightness(0) invert(1);
+}
+
+.square1:hover{
+    box-shadow: inset 0px 0px 0px 10px var(--color-logohover-);
+    cursor: pointer;
+}
+
+.square2:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square3:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square4:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square5:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square6:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square7:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.square8:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
+}
+
+.centersquare:hover{
+    box-shadow: 0px 10px 20px var(--color-footer-);
 }
 
 .middlesquare img{
